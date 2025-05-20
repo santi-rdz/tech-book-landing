@@ -1,12 +1,13 @@
 # Tech Book Club Landing Page 🧠📚
 
 Este proyecto es una **landing page de prueba** basada en el desafío [Tech Book Club Landing Page](https://www.frontendmentor.io/challenges/tech-book-club-landing-page-fZQidjHU73) de Frontend Mentor.
+visita mi proyecto en -> (https://rdz-tech-book.netlify.app/)
 
 ## 📌 Descripción
 
 Landing page creada con **HTML y CSS puro** como parte de mi aprendizaje en maquetación web. El objetivo es practicar el diseño responsivo, uso de Flexbox, Grid, fuentes personalizadas y estructura semántica del HTML.
 
-![Vista previa del proyecto](./screenshot.jpg) <!-- Puedes agregar aquí una captura de pantalla -->
+![image](https://github.com/user-attachments/assets/8f736772-e363-4f17-ae93-043782e5d577)
 
 ## 🔧 Tecnologías utilizadas
 
