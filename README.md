@@ -1,7 +1,8 @@
 # Tech Book Club Landing Page 🧠📚
+visita mi proyecto en -> (https://rdz-tech-book.netlify.app/)
 
 Este proyecto es una **landing page de prueba** basada en el desafío [Tech Book Club Landing Page](https://www.frontendmentor.io/challenges/tech-book-club-landing-page-fZQidjHU73) de Frontend Mentor.
-visita mi proyecto en -> (https://rdz-tech-book.netlify.app/)
+
 
 ## 📌 Descripción
 
