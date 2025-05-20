@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Tech book club</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-section">
+        <div class="container">
+          <a href="#"><img src="assets/images/logo.svg" alt="" /></a>
+        </div>
+      </header>
+      <section class="hero-section">
+        <div class="grid container hero-content">
+          <div class="hero-text-box flex-col">
+            <h1 class="text-w">Join the ultimate tech book club</h1>
+            <p class="hero-description text-2">
+              Turn your reading time into learning time with fellow tech
+              enthusiasts. Get curated recommendations, join vibrant
+              discussions, and level up your skills one chapter at a time.
+            </p>
+            <a href="#membership" class="hero-button btn primary text-6">
+              <p>Review membership options</p>
+              <img src="assets/images/icon-arrow-down.svg" alt="" />
+            </a>
+            <div class="hero-rating">
+              <div class="hero-rating-img">
+                <img src="assets/images/image-avatars.webp" alt="" />
+              </div>
+
+              <div class="rating">
+                <div class="flex">
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                </div>
+
+                <p class="text-7">200+ developers joined already</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source
+                type="image/webp"
+                media="(min-width: 1200px)"
+                srcset="assets/images/image-hero-desktop.webp"
+              />
+              <source
+                type="image/webp"
+                media="(min-width: 768px)"
+                srcset="assets/images/image-hero-tablet.webp"
+              />
+              <img
+                class="radius-8"
+                src="assets/images/image-hero-mobile.webp"
+                alt="Hero image"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </div>
+    <main>
+      <section class="features-section">
+        <div class="features-content container grid">
+          <div class="text-col y-center flex-col">
+            <header>
+              <h2 class="text-w-15">Read together, grow together</h2>
+            </header>
+            <ul class="feature-list flex-col">
+              <li class="feature-li">
+                <img src="assets/images/icon-check.svg" alt="" />
+                <p class="text-5">
+                  Monthly curated tech reads selected by industry experts
+                </p>
+              </li>
+              <li class="feature-li">
+                <img src="assets/images/icon-check.svg" alt="" />
+                <p class="text-5">
+                  Virtual and in-person meetups for deep-dive discussions
+                </p>
+              </li>
+              <li class="feature-li">
+                <img src="assets/images/icon-check.svg" alt="" />
+                <p class="text-5">Early access to new tech book releases</p>
+              </li>
+              <li class="feature-li">
+                <img src="assets/images/icon-check.svg" alt="" />
+                <p class="text-5">
+                  Author Q&A sessions with tech thought leaders
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="img-col img-col-1">
+            <picture>
+              <source
+                media="(min-width : 1200px)"
+                srcset="assets/images/image-read-together-desktop.webp"
+              />
+              <source
+                media="(min-width : 768px)"
+                srcset="assets/images/image-read-together-tablet.webp"
+              />
+              <img
+                class="radius-16"
+                src="assets/images/image-read-together-mobile.webp"
+                alt=""
+              />
+            </picture>
+          </div>
+          <div class="text-col y-center flex-col">
+            <header>
+              <h2 class="text-w-16">
+                Not your average book <strong class="club-text">club</strong>
+              </h2>
+            </header>
+            <p class="text-5">
+              Connect with a community that speaks your language - from
+              <strong>Python</strong>
+              to <strong>TypeScript</strong> and everything in between. Our
+              discussions blend technical depth with practical applications.
+            </p>
+          </div>
+          <div class="img-col club-col">
+            <picture>
+              <source
+                media="(min-width : 1200px)"
+                srcset="assets/images/image-not-average-desktop.webp"
+              />
+              <source
+                media="(min-width : 768px)"
+                srcset="assets/images/image-not-average-tablet.webp"
+              />
+              <img
+                class="radius-16"
+                src="assets/images/image-not-average-mobile.webp"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="flex-col steps-section container">
+        <header>
+          <h2>Your tech reading journey</h2>
+        </header>
+        <ol class="steps-ol flex-col">
+          <li class="step-li text-6 flex-col">
+            <div class="li-head flex">
+              <span class="step-marker">1</span
+              ><img src="assets/images/pattern-arrow.svg" alt="" />
+            </div>
+            <p>Choose your membership tier</p>
+          </li>
+          <li class="step-li text-6 flex-col">
+            <div class="li-head flex">
+              <span class="step-marker">2</span
+              ><img src="assets/images/pattern-arrow.svg" alt="" />
+            </div>
+            <p>Get your monthly book selection</p>
+          </li>
+          <li class="step-li text-6 flex-col">
+            <div class="li-head flex">
+              <span class="step-marker">3</span
+              ><img src="assets/images/pattern-arrow.svg" alt="" />
+            </div>
+            <p>Join our discussion forums</p>
+          </li>
+          <li class="step-li text-6 flex-col">
+            <div class="li-head flex">
+              <span class="step-marker">4</span>
+            </div>
+            <p>Attend exclusive meetups</p>
+          </li>
+        </ol>
+      </section>
+      <section id="membership" class="membership-section flex-col">
+        <div class="container membership-header">
+          <h2>Membership options</h2>
+        </div>
+        <div class="container-2">
+          <div class="member-cards grid-members-card">
+            <article class="member-card starter flex-col">
+              <header class="card-header flex-col gap-24">
+                <p class="text-4">Starter</p>
+                <div class="card-price flex flex-center">
+                  <p class="text-3 price">$19</p>
+                  <span class="text-5">/month</span>
+                </div>
+              </header>
+              <div class="card-content flex-col">
+                <ul class="card-ul flex-col">
+                  <li class="card-li flex flex-center">
+                    <img src="assets/images/icon-check.svg" alt="" />
+                    <p class="text-5">1 book/month</p>
+                  </li>
+                  <li class="card-li flex">
+                    <img src="assets/images/icon-check.svg" alt="" />
+                    <p class="text-5">1 Online forums</p>
+                  </li>
+                </ul>
+                <button class="btn primary card-btn text-6">
+                  Subscribe now
+                </button>
+              </div>
+            </article>
+            <article class="member-card pro flex-col">
+              <header class="card-header flex-col gap-24">
+                <p class="text-4">Pro</p>
+                <div class="card-price flex flex-center">
+                  <p class="text-3 price">$29</p>
+                  <span class="text-5">/month</span>
+                </div>
+              </header>
+              <div class="card-content flex-col">
+                <ul class="card-ul flex-col">
+                  <li class="card-li flex flex-center">
+                    <img src="assets/images/icon-check.svg" alt="" />
+                    <p class="text-5">2 book/month</p>
+                  </li>
+                  <li class="card-li flex">
+                    <img src="assets/images/icon-check.svg" alt="" />
+                    <p class="text-5">Virtual meetups</p>
+                  </li>
+                </ul>
+                <button class="btn primary card-btn text-6">
+                  Subscribe now
+                </button>
+              </div>
+            </article>
+            <article class="member-card enterprise flex-col">
+              <header class="card-header flex-col gap-24">
+                <p class="text-4">Enterprise</p>
+                <div class="card-price flex flex-center">
+                  <p class="text-3">Custom</p>
+                </div>
+              </header>
+              <div class="card-content flex-col">
+                <ul class="card-ul flex-col">
+                  <li class="card-li flex flex-center">
+                    <img src="assets/images/icon-check.svg" alt="" />
+                    <p class="text-5">Team access</p>
+                  </li>
+                  <li class="card-li flex">
+                    <img src="assets/images/icon-check.svg" alt="" />
+                    <p class="text-5">Private sessions</p>
+                  </li>
+                </ul>
+                <button class="btn primary card-btn text-6">Talk to us</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials-section">
+        <div class="container-2">
+          <blockquote class="testimonial flex-col">
+            <div class="stars flex">
+              <img src="assets/images/icon-star.svg" alt="" /><img
+                src="assets/images/icon-star.svg"
+                alt=""
+              /><img src="assets/images/icon-star.svg" alt="" /><img
+                src="assets/images/icon-star.svg"
+                alt=""
+              />
+              <img src="assets/images/icon-star.svg" alt="" />
+            </div>
+            <p class="text-3-auto testimonial-text">
+              "This book club transformed my technical reading from a solitary
+              activity into an enriching community experience. The discussions
+              are gold!"
+            </p>
+            <span class="bq-author text-5">
+              Sarah Chen, Software Architect
+            </span>
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section clr-white">
+      <div class="container flex-col footer-content">
+        <header class="footer-head-content flex-col">
+          <h2 class="footer-header-txt clr-n-100">
+            Ready to debug your reading list?
+          </h2>
+          <div class="flex-col gap-32">
+            <a href="#membership" class="btn alter-primary text-6">
+              Review membership options
+              <img src="assets/images/icon-arrow-up.svg" alt=""
+            /></a>
+            <div class="hero-rating">
+              <div class="hero-rating-img">
+                <img src="assets/images/image-avatars.webp" alt="" />
+              </div>
+
+              <div class="rating">
+                <div class="flex">
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                  <img src="assets/images/icon-star.svg" alt="" />
+                </div>
+
+                <p class="text-7">200+ developers joined already</p>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="footer-main flex flex-between">
+          <p class="text-7">&copy; 2024 – Tech Book Club</p>
+          <div class="flex gap-24">
+            <img src="assets/images/logo-bluesky.svg" alt="" /><img
+              src="assets/images/logo-linkedin.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+
+ 
+  Ready to debug your reading list?
+
+  Review membership options
+  200+ developers joined already
+
+  © 2024 - Tech Book Club -->
+  </body>
+</html>
