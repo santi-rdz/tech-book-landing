@@ -26,4 +26,4 @@ Landing page creada con **HTML y CSS puro** como parte de mi aprendizaje en maqu
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/santi-rdz/tech-book-club-landing-page.git```
+   git clone https://github.com/santi-rdz/tech-book-club-landing-page.git
